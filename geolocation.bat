@@ -1,10 +1,10 @@
 @echo off
 echo ============================ Process start ============================================
 
-set SEARCH_STRING="Zabrze, Wolności 23"
-set API_KEY=AIzaSyBpGK2jgjRaF2CDzhMlJzAIbD7ACGcSOxs
+set SEARCH_STRING="Jowisza%20Gliwice%2021"
+set API_KEY="AIzaSyBpGK2jgjRaF2CDzhMlJzAIbD7ACGcSOxs"
 
-curl https://maps.googleapis.com/maps/api/geocode/json?address=%SEARCH_STRING%&key=%API_KEY%
+curl "https://maps.googleapis.com/maps/api/geocode/json?address=%SEARCH_STRING%&key=%API_KEY%"
 
 echo ========================== Return coordinates =========================================
 
