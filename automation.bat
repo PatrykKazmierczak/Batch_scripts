@@ -1,5 +1,5 @@
 @echo off
-setlocal enableextensions enabledelayedexpansion
+
 
 echo ============================ Process start ====================================================================
 
