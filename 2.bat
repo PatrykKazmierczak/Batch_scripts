@@ -1,3 +1,4 @@
+
 @echo off
 
 setlocal
@@ -21,55 +22,23 @@ echo =============== Searching for Git repositories in %USERPROFILE% ===========
 
 set "output_file=C:\scripts\repos_info\git_repositories.txt"
 
-runas /user:Administrator "for /d /r C:\ %%a in (*.git) do (
+for /d /r "%USERPROFILE%" %%a in (*.git) do (
     echo %%~dpa >> "%output_file%"
-    pushd "%%a\.." > nul
-    git status >> "%output_file%"
-    git branch -r >> "%output_file%"
-    git checkout main
-    git fetch
-    git pull
-    set "zip_file=%repos_info%\%%~nxa.zip"
-    powershell Compress-Archive -Path "%%~nxa" -DestinationPath "%zip_file%"
-    move /y "%zip_file%" "%storage_info%\"
-    popd > nul
-)"
+)
+set "log_file=C:\scripts\repos_info\report-script.log"
+set "error_file=C:\scripts\repos_info\error-script.log"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for /f %%i in (git_repository.txt) do (
+    for /d /r "%%i" %%a in (*.git) do (
+        echo %%~dpa >> "%output_file%"
+        set "repo_dir=%%~dpa"
+        cd /d "%%~dpa"
+        set "repo_name=!repo_dir:~0,-5!"
+        set "repo_name=!repo_name:%USERPROFILE%\=!"
+        set "zip_file=C:\scripts\storage_info\!repo_name:~1,-1!.zip"
+        echo Checking repo !repo_dir!...
+        git status >nul 2>nul
+        if errorlevel 1 (
+            echo Repo does not exist, zipping...
+            git archive --format=zip -o "!zip_file!" HEAD
+            echo ^<title^>: ^<tags^> ^<url^>:!repo_dir! ^<remote branches^>: Not

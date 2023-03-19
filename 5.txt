@@ -1,0 +1,28 @@
+for /f "delims=" %%r in ('dir /b /s "%USERPROFILE%\*.git"') do (
+  set "repo_dir=%%~dr%%~pr"
+  cd /d "%%~dpnr"
+
+echo ========================= Check git status =======================================================================
+  git status >> "%output_file%"
+
+echo ====================== Get current git branch ====================================================================
+  git branch -r >> "%output_file%"
+
+echo ======================= Checkout main branch =====================================================================
+  git checkout main
+
+echo ===================== Fetch latest git changes ===================================================================
+  git fetch
+
+echo ===================== Pull latest git changes ====================================================================
+  git pull
+
+echo ======================== Zip the repository ======================================================================
+  set "zip_name=%%~nxr.zip"
+  7z a -tzip "%USERPROFILE%\Downloads\%zip_name%" "*"
+
+echo ================ Move the repository to specific location=========================================================
+  move /Y "%%r" "C:\scripts\storage_info\"
+
+  cd /d "%USERPROFILE%"
+)
