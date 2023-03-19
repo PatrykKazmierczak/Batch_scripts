@@ -32,8 +32,11 @@
 		-> prepare report report-<script_name>.log containing info about unique tags and list of available repos under tag with zip location reference
 		-> update report report-<script_name>.log header section with <last upadated date and number of new repos (optional list the new repositories)>
 		-> in case of any failures please update the error-<script_name>.log stored under the script dir
-		
-Example repo name:
+
+
+
+
+
 > company_x>proj_1
 > company_x>proj_2
 > company_x>proj_3
@@ -56,3 +59,48 @@ company_x>proj_2
 ...
 
 2. Excel compare
+
+echo ========= Modify output_file from repos_info and set date =====================================================
+
+set "curr_date=%date%"
+set "curr_time=%time%"
+rem Replace colons with underscores in the time to make it suitable for use in a filename
+set "curr_time=%curr_time::=_%"
+set "timestamp=%curr_date%_%curr_time%"
+
+rem Replace any forward slashes in the date with dashes
+set "timestamp=%timestamp:/=-%"
+
+set "filePath=C:\scripts\repos_info\git_repositories.txt"
+set "outputFilePath=C:\scripts\structure_info\modified_file.txt"
+
+if not exist "%filePath%" (
+    echo File not found: %filePath%
+    exit /b 1
+)
+
+set "newContent="
+
+for /f "usebackq tokens=* delims=" %%a in ("%filePath%") do (
+    set "line=%%a"
+    set "projectName="
+    set "specificProjectName="
+    for %%b in (%%a) do (
+        set "dirName=%%~nxb"
+        if not defined projectName (
+            set "projectName=%%~nb"
+        ) else if not defined specificProjectName (
+            set "specificProjectName=%%~nb"
+        )
+    )
+    if defined projectName if defined specificProjectName (
+        set "newContent=!newContent!Project: !projectName!, Name of project: !specificProjectName!. "
+    )
+)
+
+echo %newContent% > "%outputFilePath%_%timestamp%"
+
+echo File updated: %outputFilePath%
+exit /b 0
+
+pause
