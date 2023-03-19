@@ -1,0 +1,58 @@
+1. Repos Storage
+* input file: repos.info   set "repos_info=<C:\scripts\repository>"
+* input file structure:		set "repos_storage=<C:\scripts\storage>"
+# <title>: <tag_1>, ..., <tag_n>
+<repo_dir>
+* flow:
+	- iterate over repositories and do the following things:
+		-> check if repo exists (git status (?))
+		-> if exists:
+			-> [log] list remote branches (git branch -r)
+			-> checkout on the main branch (git checkout main lub git checkout <default_branch> (from repos.info file))
+			-> do fetch and do pull (git fetch, git pull)
+			-> zip repo and move to <repo_storage> 
+			-> [log] update log with:
+				<title>: <tag_1>, ..., <tag_n>
+				<url>
+				<remote branches>
+				<current branch>
+				<zip location>
+				<last operation when repo exists>
+				<last operation when not repo exists>
+		-> if not exists:
+			-> zip repo and move to <repo_storage> if there was any change in the repo (crc - suma kontrolna?, optional)
+			-> update log with:
+				<title>: <tag_1>, ..., <tag_n>
+				<url>
+				<remote branches>
+				<current branch>
+				<zip location>
+				<last operation when repo exists>
+				<last operation when not repo exists>
+		-> prepare report report-<script_name>.log containing info about unique tags and list of available repos under tag with zip location reference
+		-> update report report-<script_name>.log header section with <last upadated date and number of new repos (optional list the new repositories)>
+		-> in case of any failures please update the error-<script_name>.log stored under the script dir
+		
+Example repo name:
+> company_x>proj_1
+> company_x>proj_2
+> company_x>proj_3
+> sth_1>sth2>company_y>proj_1
+> sth_1>sth2>company_y>proj_2
+> sth_1>sth2>company_y>sth_1>proj_1
+> sth_1>sth2>sth3>sth4>company_z>sth_5>proj_1
+> sth_1>sth2>sth3>sth4>company_z>sth_5>proj_2
+
+
+repos.info
+# Company X: JAVA, Web, SAP, Banking
+# default_branch (opcjonalne!)
+company_x>proj_1
+
+# Company X: .NET, Web, Insurance, Old 
+# default_branch (opcjonalne!)
+company_x>proj_2
+
+...
+
+2. Excel compare
