@@ -1,0 +1,114 @@
+C:\Users\patro\AppData\Roaming\Code\logs\20230305T215708\window4\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230305T220601\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230305T221032\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230305T221032\window3\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230309T210157\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230312T154718\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230312T154718\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230312T155138\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230312T155138\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230312T195621\window1\exthost\ 
+C:\Users\patro\AppData\Roaming\Code\logs\20230312T195621\window1\exthost\ 
+C:\Users\patro\OneDrive\JavaScript\js-course\devmentor\github-helloworld\ 
+C:\Users\patro\OneDrive\JavaScript\js-course\devmentor\practice-html-and-css-basics\practice-html-and-css-basics\ 
+C:\Users\patro\OneDrive\JavaScript\js-course\devmentor\practice-js-tools\practice-html-and-css-basics\ 
+C:\Users\patro\OneDrive\JavaScript\js-projects\Clock Javascript\ 
+C:\Users\patro\OneDrive\JavaScript\js-projects\CV Javascript\ 
+C:\Users\patro\OneDrive\JavaScript\js-projects\Edit-Formular-App\ 
+C:\Users\patro\OneDrive\JavaScript\js-projects\Finance Dashboard\ 
+C:\Users\patro\OneDrive\JavaScript\js-projects\Login-Form\ 
+C:\Users\patro\OneDrive\JavaScript\js-projects\Todo-App\ 
+C:\Users\patro\OneDrive\Patronix Systems\Patronix Systems\USB\Programs\ 
+C:\Users\patro\OneDrive\Patronix Systems\USB\Programs\ 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   automation.bat
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	1.bat
+	backup/backup_19.03.2023_17_04_27,41/
+	backup/backup_19.03.2023_17_04_31,61/
+	repos_info/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  origin/main
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+  origin/HEAD -> origin/master
+  origin/master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   02/styles/index.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  origin/HEAD -> origin/master
+  origin/master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+  origin/HEAD -> origin/master
+  origin/master
+On branch master
+Your branch is up to date with 'Clock-Javascript/master'.
+
+nothing to commit, working tree clean
+  Clock-Javascript/master
+On branch main
+Your branch is up to date with 'Patryk-Kazmierczak-CV/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  Patryk-Kazmierczak-CV/main
+On branch master
+Your branch is up to date with 'Insurance-App/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  Insurance-App/master
+On branch master
+Your branch is up to date with 'Finance-Dashboard/master'.
+
+nothing to commit, working tree clean
+  Finance-Dashboard/master
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  origin/HEAD -> origin/master
+  origin/master
+On branch master
+Your branch is up to date with 'first-init/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .vscode/settings.json
+	modified:   todo.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  first-init/master
