@@ -1,3 +1,13 @@
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\$Recycle.Bin\S-1-5-21-613825385-1205368956-2507153475-1001\ 
+C:\ProgramData\Jenkins\.jenkins\plugins\github\META-INF\maven\ 
+C:\Users\All Users\Jenkins\.jenkins\plugins\github\META-INF\maven\ 
 C:\Users\patro\AppData\Roaming\Code\logs\20230305T220601\window1\exthost\ 
 C:\Users\patro\AppData\Roaming\Code\logs\20230305T221032\window1\exthost\ 
 C:\Users\patro\AppData\Roaming\Code\logs\20230305T221032\window3\exthost\ 
@@ -8,132 +18,12 @@ C:\Users\patro\AppData\Roaming\Code\logs\20230312T155138\window1\exthost\
 C:\Users\patro\AppData\Roaming\Code\logs\20230312T195621\window1\exthost\ 
 C:\Users\patro\AppData\Roaming\Code\logs\20230312T195621\window1\exthost\ 
 C:\Users\patro\OneDrive\JavaScript\js-course\devmentor\github-helloworld\ 
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-nothing added to commit but untracked files present (use "git add" to track)
-  origin/HEAD -> origin/master
-  origin/master
 C:\Users\patro\OneDrive\JavaScript\js-course\devmentor\practice-html-and-css-basics\practice-html-and-css-basics\ 
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   02/styles/index.css
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-no changes added to commit (use "git add" and/or "git commit -a")
-  origin/HEAD -> origin/master
-  origin/master
 C:\Users\patro\OneDrive\JavaScript\js-course\devmentor\practice-js-tools\practice-html-and-css-basics\ 
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-nothing added to commit but untracked files present (use "git add" to track)
-  origin/HEAD -> origin/master
-  origin/master
 C:\Users\patro\OneDrive\JavaScript\js-projects\CV Javascript\ 
-On branch main
-Your branch is up to date with 'Patryk-Kazmierczak-CV/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   style.css
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-no changes added to commit (use "git add" and/or "git commit -a")
-  Patryk-Kazmierczak-CV/main
 C:\Users\patro\OneDrive\JavaScript\js-projects\Edit-Formular-App\ 
-On branch master
-Your branch is up to date with 'Insurance-App/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   index.html
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-no changes added to commit (use "git add" and/or "git commit -a")
-  Insurance-App/master
 C:\Users\patro\OneDrive\JavaScript\js-projects\Finance Dashboard\ 
-On branch master
-Your branch is up to date with 'Finance-Dashboard/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-nothing added to commit but untracked files present (use "git add" to track)
-  Finance-Dashboard/master
 C:\Users\patro\OneDrive\JavaScript\js-projects\Login-Form\ 
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   style.css
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-no changes added to commit (use "git add" and/or "git commit -a")
-  origin/HEAD -> origin/master
-  origin/master
 C:\Users\patro\OneDrive\JavaScript\js-projects\Todo-App\ 
-On branch master
-Your branch is up to date with 'first-init/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   .vscode/settings.json
-	modified:   todo.js
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	!zip_file!
-
-no changes added to commit (use "git add" and/or "git commit -a")
-  first-init/master
 C:\Users\patro\OneDrive\Patronix Systems\Patronix Systems\USB\Programs\ 
 C:\Users\patro\OneDrive\Patronix Systems\USB\Programs\ 
-%~dpa 
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   automation.bat
-	modified:   repos_info/git_repositories.txt
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	2.bat
-	3.bat
-	5.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-  origin/main
